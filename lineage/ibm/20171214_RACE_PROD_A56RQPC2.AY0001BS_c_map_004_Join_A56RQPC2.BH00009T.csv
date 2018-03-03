@@ -1,0 +1,2 @@
+Name,Source Columns,Target Columns,Rule,Function,Specification Description,Name,Source Columns,Target Columns,Rule,Function,Specification Description,"testURL","ImplementsFTR"
+"Join","SBA.WORK.<NOSCHEMA>.Join, SBA.Team_SAS_VA_016.Staging Library.NAS016_DIM_PROFIT_CENTRE","SBA.WORK.<NOSCHEMA>.Join",,,,,,,,,,,

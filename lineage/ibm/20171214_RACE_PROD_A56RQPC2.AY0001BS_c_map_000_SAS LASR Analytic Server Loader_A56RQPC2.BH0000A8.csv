@@ -1,0 +1,2 @@
+Name,Source Columns,Target Columns,Rule,Function,Specification Description,Name,Source Columns,Target Columns,Rule,Function,Specification Description,"testURL","ImplementsFTR"
+"SAS LASR Analytic Server Loader","SBA.WORK.<NOSCHEMA>._016_RAC_FACT_GENERAL","SBA.Team_SAS_VA_016.Memory Library._016_RAC_FACT_GENERAL",,,,,,,,,,,

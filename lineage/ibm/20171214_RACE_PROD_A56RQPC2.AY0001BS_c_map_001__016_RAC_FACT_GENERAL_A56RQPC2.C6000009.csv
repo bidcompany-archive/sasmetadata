@@ -1,0 +1,2 @@
+Name,Source Columns,Target Columns,Rule,Function,Specification Description,Name,Source Columns,Target Columns,Rule,Function,Specification Description,"testURL","ImplementsFTR"
+"_016_RAC_FACT_GENERAL","SBA.WORK.<NOSCHEMA>.Join","SBA.WORK.<NOSCHEMA>._016_RAC_FACT_GENERAL",,,,,,,,,,,

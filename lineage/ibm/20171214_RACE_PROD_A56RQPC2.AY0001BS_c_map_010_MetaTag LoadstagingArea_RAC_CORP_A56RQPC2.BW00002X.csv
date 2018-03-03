@@ -1,0 +1,2 @@
+Name,Source Columns,Target Columns,Rule,Function,Specification Description,Name,Source Columns,Target Columns,Rule,Function,Specification Description,"testURL","ImplementsFTR"
+"MetaTag LoadstagingArea_RAC_CORP","SBA.L_INPUT.<NOSCHEMA>.RACE_CORP","SBA.Team_SAS_VA_016.Staging Library._016_RAC_CORP",,,,,,,,,,,

@@ -1,0 +1,643 @@
++++ Host - begin +++
+Name, Description
+SBA,BI Reporting Host
++++ Host - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Memory Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_FACT_GENERAL,SBA,Team_SAS_VA_016 - Memory Library,Memory Library,_016_RAC_FACT_GENERAL
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
+DT_PERIODO_RIFERIMENTO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,Data di riferimento, , , , , , , , , , 
+CO_CUS, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DESCRIZIONE_CLIENTE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+GRUPPO_RISCHIO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DESCRIZIONE_GRUPPO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CO_STRUTTURA_L1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L0, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L6, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L7, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L8, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA_L9, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+STRUTTURA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_STRUTTURA_L4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,Area Comm./Ag. Private/Centro, , , , , , , , , , 
+CO_BUSINESS_LINE_LEV1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CO_BUSINESS_LINE_LEV2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CO_BUSINESS_LINE_LEV3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CO_BUSINESS_LINE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_BUSINESS_LINE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DE_PROFIT_CENTRE_L0, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DE_PROFIT_CENTRE_L1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,Profit Center, , , , , , , , , , 
+DE_PROFIT_CENTRE_L2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,Region / Dir. Network, , , , , , , , , , 
+DE_PROFIT_CENTRE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+FLAG_PUBLIC_SECTOR, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+FLAG_SMALL_BUSINESS, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DE_FLAG_ALFA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+FLAG_NETWORK, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,Network, , , , , , , , , , 
+FLAG_MESE_CORRENTE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+GG_INIZIO_ANNO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+GG_INIZIO_MESE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_MOL_TOT, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_EQ_REB, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_CT2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_EL_REG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_SEVA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+NUM_RWA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+EAD_REG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,EAD REG, , , , , , , , , , 
+IM_ABS_CAP_T1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_MOL_TOT_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_EQ_REB_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_CT2_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_EL_REG_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_SEVA_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+NUM_RWA_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+IM_ABS_CAP_T1_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DT_PERIODO_RIFERIMENTO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,Mese, , , , , , , , , , 
+CO_STRUTTURA_L4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DT_AGGIORNAMENTO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+TIPO_DATO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+NDG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CO_STRUTTURA_L3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CO_STRUTTURA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+FLAG_SHADOW, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CO_STRUTTURA_L5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_STRUTTURA_L5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,Area Comm./Ag.Private, , , , , , , , , , 
+NDG_Gruppo, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+DL_CANALE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CANALE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+CO_RUOLO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+MACRO_TP_PROD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+PD_MEDIA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
+PD_MEDIA_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_FACT_GENERAL,, , , , , , , , , , 
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+WORK,SBA,WORK,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,WORK<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_FACT_GENERAL,SBA,WORK,<NOSCHEMA>,_016_RAC_FACT_GENERAL
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+WORK,SBA,WORK,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,WORK<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+Join,SBA,WORK,<NOSCHEMA>,Join
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+WORK,SBA,WORK,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,WORK<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+Join,SBA,WORK,<NOSCHEMA>,Join
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+WORK,SBA,WORK,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,WORK<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+Join,SBA,WORK,<NOSCHEMA>,Join
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+WORK,SBA,WORK,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,WORK<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+Join,SBA,WORK,<NOSCHEMA>,Join
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Staging Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Staging Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_FACT,SBA,Team_SAS_VA_016 - Staging Library,Staging Library,_016_RAC_FACT
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+L_INPUT,SBA,L_INPUT,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,L_INPUT<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+RACE_FACT,SBA,L_INPUT,<NOSCHEMA>,RACE_FACT
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Staging Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Staging Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+NAS016_DIM_BUSINESS_LINE,SBA,Team_SAS_VA_016 - Staging Library,Staging Library,NAS016_DIM_BUSINESS_LINE
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Staging Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Staging Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+NAS016_DIM_PROFIT_CENTRE,SBA,Team_SAS_VA_016 - Staging Library,Staging Library,NAS016_DIM_PROFIT_CENTRE
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Staging Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Staging Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+NAS016_DIM_TAB_STRU,SBA,Team_SAS_VA_016 - Staging Library,Staging Library,NAS016_DIM_TAB_STRU
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Staging Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Staging Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+Dim_business_line_custom,SBA,Team_SAS_VA_016 - Staging Library,Staging Library,Dim_business_line_custom
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Memory Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_TREND,SBA,Team_SAS_VA_016 - Memory Library,Memory Library,_016_RAC_TREND
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
+DT_PERIODO_RIFERIMENTO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+FLAG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+PERIODO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_BUSINESS_LINE_ACTUAL, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_PROFIT_CENTRE_ACTUAL, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_BUSINESS_LINE_LEV2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_BUSINESS_LINE_LEV3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+FLAG_SHADOW, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_PRODUCT_CDG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_PRODUCT_CDG_LEV1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DL_PRODUCT_CDG_LEV1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_PRODUCT_CDG_LEV2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_STRUTTURA_L1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DE_STRUTTURA_L1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_STRUTTURA_L2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DE_STRUTTURA_L2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+CO_STRUTTURA_L3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DE_STRUTTURA_L3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DL_PRODUCT_CDG_LEV2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_MOL_TOT, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_EL_REG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NUM_RWA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_MOL_TOT_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_MOL_TOT_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_MOL_TOT_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_MOL_TOT_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_MOL_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_MOL_TOT_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_EL_REG_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_EL_REG_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_EL_REG_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_EL_REG_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_EL_REG_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NUM_RWA_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NUM_RWA_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NUM_RWA_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NUM_RWA_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NUM_RWA_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NUM_RWA_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+IM_EL_REG_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+GG_PROGR_ANNO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+FLAG_ALFA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+TIPO_MOL, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NNII_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NII_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NNII_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NII, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NII_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NII_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NNII_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NII_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NII_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NII_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NNII_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NNII_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NNII_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+NNII, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+RWA_AVG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DT_AGG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_TREND,, , , , , , , , , , 
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Staging Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Staging Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_TREND,SBA,Team_SAS_VA_016 - Staging Library,Staging Library,_016_RAC_TREND
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+L_INPUT,SBA,L_INPUT,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,L_INPUT<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+RACE_TREND,SBA,L_INPUT,<NOSCHEMA>,RACE_TREND
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Memory Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_CORP,SBA,Team_SAS_VA_016 - Memory Library,Memory Library,_016_RAC_CORP
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
+CO_BUSINESS_LINE_LEV3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_STRUTTURA_L2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_STRUTTURA_L3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_STRUTTURA_L4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_STRUTTURA_L5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_STRUTTURA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_TP_PROD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,PRODOTTO, , , , , , , , , , 
+CO_CUS, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+GRUPPO_RISCHIO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_SHAD_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_SHAD_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_SHAD_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_SHAD_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_SHAD_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_SHAD_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_SHAD_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_SHAD_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_SHAD_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+SEVA_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_SHAD_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+SEVA_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CLUSTER, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_BUSINESS_LINE_ACTUAL, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+SEVA_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+RWA_EOP_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,RWA EOP AP, , , , , , , , , , 
+GG_PROGR_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+DESCRIZIONE_CLIENTE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_SHAD_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+RWA_EOP_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,RWA  EOP AC, , , , , , , , , , 
+DT_RIF, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_SHAD_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EAD_REG_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,EAD AC, , , , , , , , , , 
+SEVA_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_SHAD_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_SHAD_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_SHAD_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+SEVA_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EAD_REG_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_SHAD_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+DESCRIZIONE_GRUPPO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+GG_ANNO_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+SEVA_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+SEVA_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+RWA_EOP_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+GG_ANNO_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_CLUSTER, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EAD_REG_TOT_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,EAD AP, , , , , , , , , , 
+NUM_RWA_SHAD_Q2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_SHAD_PRM_AC, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_SHAD_PRM_AP, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+EL_SHAD_Q4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+MOL_Q1, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+NUM_RWA_SHAD_Q3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+CO_CUS9, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+GRUPPO_RISCHIO9, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+DE_STRUTTURA_L3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
+DE_STRUTTURA_L2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_CORP,, , , , , , , , , , 
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Staging Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Staging Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_CORP,SBA,Team_SAS_VA_016 - Staging Library,Staging Library,_016_RAC_CORP
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+L_INPUT,SBA,L_INPUT,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,L_INPUT<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+RACE_CORP,SBA,L_INPUT,<NOSCHEMA>,RACE_CORP
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Memory Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_BDG,SBA,Team_SAS_VA_016 - Memory Library,Memory Library,_016_RAC_BDG
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
+CO_STRUTTURA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DT_PERIODO_RIFERIMENTO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+CO_BUSINESS_LINE_ACTUAL, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+CO_RUOLO, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DL_CANALE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+BL_L4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+BL_L5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV2, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DL_BUSINESS_LINE_LEV3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+CO_STRUTTURA_L3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+CO_STRUTTURA_L5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+CO_STRUTTURA_L6, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DE_STRUTTURA, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DE_STRUTTURA_L3, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DE_STRUTTURA_L5, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DE_STRUTTURA_L6, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+IM_MOL_TOT_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+IM_EL_REG_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+GG_PROGR, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+NUM_RWA_YTD, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+BDG_EL_ANN, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+CANALE, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+BDG_RWA_AVG, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+DE_STRUTTURA_L4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+CO_STRUTTURA_L4, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+BDG_MOL_ANN, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+FLAG_SHADOW, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
+FAST_LOAD_INDEX, SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Memory Library,_016_RAC_BDG,, , , , , , , , , , 
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+Team_SAS_VA_016,SBA,Team_SAS_VA_016,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+Staging Library,SBA,Team_SAS_VA_016<dbms=Relational::instance=file>,Staging Library
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+_016_RAC_BDG,SBA,Team_SAS_VA_016 - Staging Library,Staging Library,_016_RAC_BDG
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+
++++ Database - begin +++
+Name,Host,Description,Vendor,Version,Instance,Location,DBMS
+L_INPUT,SBA,L_INPUT,,,file,Lab,Relational
++++ Database - end +++
+
++++ Schema - begin +++
+Name,Host,Database,Description
+<NOSCHEMA>,SBA,L_INPUT<dbms=Relational::instance=file>,<NOSCHEMA>
++++ Schema - end +++
+
++++ Database Table - begin +++
+Name,Host,Database,Schema,Description
+RACE_BDG,SBA,L_INPUT,<NOSCHEMA>,RACE_BDG
++++ Database Table - end +++
+
++++ Database Column - begin +++
+Name,Host,Database,Schema,Table,Description,ODBC Type,Data Type,Native Type,Length,Minimum Length,Unique,Nullability,Fraction,Position,Level Number
++++ Database Column - end +++
+

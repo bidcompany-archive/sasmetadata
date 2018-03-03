@@ -1,0 +1,71 @@
+/***************************************
+	Query Passthrough su TD
+	Esempio USER CODE:
+	execute (
+				replace view &tdStagedb..&table_target. as
+				select geography_dim.*
+				from &tdStagedb..geography_dim geography_dim
+			
+		) by teradata;
+***************************************/
+
+%macro select;
+/************************************
+			BEGIN USER CODE 
+************************************/
+
+
+execute (
+        replace view &tdStagedb..&table_target. as
+
+				SELECT R.REFERENCE_DT, 
+					R.BALANCE_SHEET_SIDE, R.BS_REPORTING_CD, R.BS_REPORTING_LINE, R.BALANCE_SHEET_ITEM_CD ,
+					B.BS_ITEM_DESCRIPTION ,
+				 
+				    SUM( CV_LMR ) AS TOT_CV_AMT ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '00' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_00    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '01' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_01    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '02' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_02    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '03' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_03    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '04' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_04    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '05' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_05    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '06' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_06    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '07' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_07    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '08' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_08    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '09' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_09    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '10' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_10    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '11' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_11    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '12' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_12    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '13' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_13    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '14' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_14    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '15' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_15    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '16' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_16    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '17' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_17    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '18' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_18    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '19' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_19    ,
+				    SUM(CASE WHEN TIME_BUCKET_CD = '20' THEN CV_LMR ELSE 0.0 END)  AS BUKT_CV_AMT_20
+				 
+				 FROM P_KGU_LIS_SVA.R_REPORTING_SLR R , 
+					 P_KGU_LIS_SVA.TGK_AZIENDA T ,
+					 P_KGU_LIS_SVA.USR_BALANCESHEETSCHEMA B
+				WHERE 1 = 1
+				AND R.REFERENCE_DT = T.REFERENCE_DT
+				AND R.LEGAL_ENTITY_CD = T.COD_AZIENDA
+				AND B.REFERENCE_DT = T.REFERENCE_DT
+				AND B.BS_ITEM_CD = R.BALANCE_SHEET_ITEM_CD	 
+				AND R.LEGAL_ENTITY_CD in (  'A2136', 'A2458', '137', 'A1966', '135', 'A3112', '133', '022', '035', 'A1983', '662', '032', '001'  ) 
+				AND R.CATEGORY = '$AMOUNT' 
+				
+				GROUP BY R.REFERENCE_DT, 
+					R.BALANCE_SHEET_SIDE, R.BS_REPORTING_CD, R.BS_REPORTING_LINE, R.BALANCE_SHEET_ITEM_CD ,
+					B.BS_ITEM_DESCRIPTION 
+
+    ) by teradata;
+
+
+
+
+/************************************
+			END USER CODE 
+************************************/
+%mend;
